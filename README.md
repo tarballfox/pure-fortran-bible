@@ -16,7 +16,7 @@ In this sections I only list stuff that I have used and I think are great.
 ### FPM
 FPM is the Fortran Package Manager. You use it to install your dependencies, build project and manage it. 
 #### JSON-Fortran
-[JSON-Fortran](https://github.com/jacobwilliams/json-fortran) is basically what you use for JSON. jacobwilliams made a few other very cool Fortran projects that you might want to check out. This one is personally what I use for Fortran. (ISC)
+[JSON-Fortran](https://github.com/jacobwilliams/json-fortran) is basically what you use for JSON. jacobwilliams made a few other very cool Fortran projects that you might want to check out. This one is personally what I use for Fortran. (3-Clause BSD)
 #### Self insert slop
 Yes, I know self-insert bad. I am developing easy wrapper/bindings (GPLv2) for [cesanta/mongoose](https://github.com/cesanta/mongoose/tree/master) and a proper discord bot/bot library in Fortran. It is just my learning project and it is just slop so ignore it. **Initial comit pending.**
 #### http-client

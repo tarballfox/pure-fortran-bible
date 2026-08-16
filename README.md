@@ -1,13 +1,13 @@
 # pure-fortran-bible
-I recently discovered my love for Fortran. I got frustrated by lack of learning resources, especially related to more complicated stuff in terms of FFI. I chose a Discord bot as my first project (which wasn't wise) and immediate got into trouble with C FFI. This guide was inspired by the Pure Bash Bible, altough I do not copy ANYTHING from there (besides the idea). This guide mostly assumes GCC as your compiler though from what I checked, some stuff applies to others. This guide will cover mostly resources for beginners + examples with solutions to various problems broken down. This document might not be as "pure" as the PBB, however it focuses 100% on Fortran. 
+## Salus populi suprema lex esto
+This repository and document exists for the good of the people. **ALL** code examples are written from scratch. They are not based on ANY work, hence the CC0 license. I just ask that you use it for good.  Most of the code assumes a compiler with good standards compliance like gfortran (GCC 16.2 more specifically). In the readme there are links to various projects with diffrent licenses that may help you in your Fortran endeavours. 
 ## Learning resources
 ### Basic
 #### Tutorial
-The [fortran-lang](https://fortran-lang.org/learn/quickstart/) website covers everything from begineer to advanced topics. You will find almost everything here, but I find that it is kinda hard to look there for easily soluble details of advanced features. You need to start here.
+The [fortran-lang](https://fortran-lang.org/learn/quickstart/) website covers almost anything. Check it out. 
 ### Advanced
-This section is for you if you outgrown the begineer stuff (which is probably very quickly).
 #### GCC
-The [GCC docs](https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gfortran/) are a great resource - they show you basically every feature supported under the compiler. Unfortunately, they do not show you how to deal with a particular problem. You look here if you wanna make a solution, not discover an already made one. 
+The [GCC docs](https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gfortran/) are a great resource - they show you basically every feature supported under the compiler.
 #### MRedies
 MRedies got a guide on [interfacing C in Fortran](https://github.com/MRedies/Interfacing-Fortran/tree/master).
 This guide covers dealing with strings and structs. It has only 2 examples though which don't cover everything.
